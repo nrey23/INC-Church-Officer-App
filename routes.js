@@ -85,7 +85,7 @@ router.get('/dashboard-counts', (req, res) => {
 
 //SECURITY FEATURES
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 // Admin Login Route
 router.post("/login", (req, res) => {
